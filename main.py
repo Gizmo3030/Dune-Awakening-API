@@ -1,6 +1,7 @@
 # main.py
 
 import enum
+import json
 from typing import List, Optional
 
 from fastapi import Depends, FastAPI, HTTPException, Request
@@ -10,6 +11,7 @@ from slowapi.errors import RateLimitExceeded
 from slowapi.util import get_remote_address
 from sqlmodel import Field, Session, SQLModel, create_engine, select
 from sqlalchemy import JSON, Column
+
 
 # --- 1. Rate Limiter Setup ---
 limiter = Limiter(key_func=get_remote_address)
