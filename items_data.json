@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Makeshift Shiv",
+    "description": "A crude but effective short blade.",
+    "item_type": "Weapon",
+    "power_consumption": 0,
+    "power_generation": 0,
+    "crafting_materials": [
+      {
+        "item_name": "Salvaged Metal",
+        "quantity": 5
+      },
+      {
+        "item_name": "Plant Fiber",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "name": "Small Refinery",
+    "description": "Refines raw ore into usable ingots. Requires power.",
+    "item_type": "Building",
+    "power_consumption": 50,
+    "power_generation": 0,
+    "crafting_materials": [
+      {
+        "item_name": "Iron Frame",
+        "quantity": 1
+      },
+      {
+        "item_name": "Copper Wiring",
+        "quantity": 20
+      }
+    ]
+  },
+  {
+    "name": "Small Wind Turbine",
+    "description": "Generates a steady supply of power from desert winds.",
+    "item_type": "Building",
+    "power_consumption": 0,
+    "power_generation": 100,
+    "crafting_materials": [
+      {
+        "item_name": "Steel Girders",
+        "quantity": 5
+      },
+      {
+        "item_name": "Turbine Blades",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "name": "Sand-Bike",
+    "description": "A fast, lightweight vehicle for traversing the sands.",
+    "item_type": "Vehicle",
+    "power_consumption": 5,
+    "power_generation": 0,
+    "crafting_materials": [
+      {
+        "item_name": "Light Vehicle Chassis",
+        "quantity": 1
+      },
+      {
+        "item_name": "Engine Block",
+        "quantity": 1
+      },
+      {
+        "item_name": "Repulsorlift",
+        "quantity": 2
+      }
+    ]
+  }
+]
