@@ -6,6 +6,12 @@
 
 A lightweight, super-fast, and easy-to-maintain RESTful API for serving craftable item data from the game *Dune: Awakening*. Built with FastAPI and SQLite, this API is designed for high performance and simple deployment, allowing others to easily build applications like crafting calculators, wikis, or Discord bots.
 
+## API Documentation
+
+- **Swagger**: [SWAGGER](https://dune-awakening-api.onrender.com/docs)
+- **ReDoc**: [REDOC](https://dune-awakening-api.onrender.com/redoc)
+- **OpenAPI**: [OPENAPI](https://dune-awakening-api.onrender.com/openapi)
+
 ## Features
 
 -   **Fast & Lightweight**: Built on FastAPI and Uvicorn for asynchronous speed.
